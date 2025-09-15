@@ -1,5 +1,21 @@
 # C2C Elite 101 Python Chatbot Starter
+Jayson's Version
 
+# Introduction
+This is a repository created by *Jayson*
+
+
+## Usage
+
+
+Run this command to execute the application:
+
+
+`python filename.py`
+
+ 
+
+```
 This chatbot was created by Jorge Luna - update
 
 This project is a starter project that includes a dev [container (GitHub Codespace)](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers) that is set up for a python
