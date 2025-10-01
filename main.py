@@ -2,7 +2,7 @@
 """
     Welcome to Elite 101 this program is a starter for your chatbot project.
     The starter prompts the user to enter their name and then greets them with a personalized message.
-
+ 
     Functions:
         get_user_name(): Prompts the user to enter their name and returns it.
         greet_user(name): Prints a greeting message using the provided name.
@@ -13,8 +13,16 @@
 """
 
 
-def get_user_name():
-    return input("Please enter your name: ")
+def get_user_information():
+    name = input("Please enter your name: ")
+    order_number = input("Please enter your order number: ")
+    address = input("Please enter your delivery address: ")
+    return {
+        "name": name,
+        "order_number": order_number,
+        "address": address
+    }
+
 
 def greet_user(name):
     print(f"Hello, {name}!")
